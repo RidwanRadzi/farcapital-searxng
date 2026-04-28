@@ -2,8 +2,8 @@ FROM docker.io/searxng/searxng:latest
 
 COPY settings.yml /etc/searxng/settings.yml
 
-ENV SEARXNG_BASE_URL=https://placeholder.onrender.com/
-ENV INSTANCE_NAME=FarCapital Scout
+ENV SEARXNG_BASE_URL=https://farcapital-searxng.onrender.com
+ENV INSTANCE_NAME="FarCapital Scout"
 
 EXPOSE 8080
 
